@@ -137,6 +137,93 @@ body {
     margin: 0;
 }
 
+.div-position {
+
+    width: 500px;
+    height:500px;
+    background-color: red;
+    border-bottom: 2px dotted black;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    background-color: blue;
+    top: 100px;
+    Left: 50px;
+
+}
+
+.absolute {
+    position: absolute;
+    background-color: purple;
+    right: 0;
+    top: 0; 
+}
+
+.mini-div {
+    height: 50px;
+    width: 50px;
+    top: 50px;
+    left: 100px;
+
+}
+
+.fixed {
+    position: fixed;
+    height: 200px;
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+
+}
+
+.sticky {
+    position: sticky;
+    background-color: gray;
+    top: 0px;
+}
+
+.container {
+
+    padding: 50px;
+}
+
+.div-float {
+
+    width: 200px;
+    height: 200px;
+    float: left;
+
+}
+
+.img-float {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.p-float {
+
+    color: #000;
+    
+}
+
+
+
+
+
+
+
+
+
 
 
 
