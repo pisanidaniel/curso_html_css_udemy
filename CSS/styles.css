@@ -192,12 +192,9 @@ body {
     padding: 50px;
 }
 
+
 .div-float {
-
-    width: 200px;
-    height: 200px;
-    float: left;
-
+    overflow:auto;
 }
 
 .img-float {
@@ -215,6 +212,66 @@ body {
     color: #000;
     
 }
+
+.clear {
+
+    clear: both;
+}
+
+div p {
+    color: #000;
+}
+
+.pixel-1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.pixel-2 {
+    background-color: blue;
+    width: 500px;
+    height: 50px;
+}
+
+.pai-porcentagem {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+
+
+.porcentagem-1 {
+
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+}
+
+.porcentagem-2 {
+
+    width: 50%;
+    height: 50%;
+    background-color: black;
+
+}
+
+.pai-em {
+
+    font-size: 50px;
+
+}
+
+.em-1 {
+    
+    width: 1em;
+    height: 1em;
+    background-color: purple;
+
+
+}
+
+
 
 
 
