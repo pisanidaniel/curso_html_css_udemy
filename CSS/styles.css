@@ -173,6 +173,7 @@ body {
 }
 
 .fixed {
+
     position: fixed;
     height: 200px;
     background-color: yellow;
@@ -180,6 +181,8 @@ body {
     right: 0;
 
 }
+
+
 
 .sticky {
     position: sticky;
